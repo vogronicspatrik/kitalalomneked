@@ -4,10 +4,10 @@ body {
 }
 
 .image{
-    height: 350px;
-    width: 350px;
+    /*height: 250px;*/
+    /*width: 250px;*/
     position: absolute;
-    left: 50px;
+    left: 100px;
     bottom: 0px;
 }
 .image img{
@@ -17,16 +17,26 @@ body {
 
 .container{
     text-align: center;
-    border: double;
-    position: static;
-    top: 50%;
-    left: 50%;
-    width:300px;
-    height:300px;
-    /*margin-top: -2em; !*set to a negative number 1/2 of your height*!*/
-    /*margin-left: -15em; !*set to a negative number 1/2 of your width*!*/
-    color: aqua;
+    /*-webkit-box-shadow: 0 0 5px 2px black;*/
+    /*-moz-box-shadow: 0 0 5px 2px #fff;*/
+    /*box-shadow: 0 0 5px 2px #fff;*/
 
-    border-color: aliceblue;
+    font-size: 30px;
+
+    box-shadow: 0 0 5px 2px  black;
+
+    width:500px;
+    height:550px;
+    margin-top: 80px;
+
+    color: orangered;
+}
+
+.ideas{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width:250px;
+    height:250px;
 
 }

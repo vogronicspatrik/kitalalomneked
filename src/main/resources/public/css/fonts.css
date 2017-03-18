@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'skinny_jeans';
+    src: url('/static/assets/fonts/_skinny_jeans/{skinny} jeans.ttf')  format('truetype');
+}
+
+
+.skinny_font{
+    font-family: 'skinny_jeans';
+}
+
+@font-face {
+    font-family: 'skinny_jeans_solid';
+    src: url('/static/assets/fonts/_skinny_jeans/{skinny} jeans solid.ttf')  format('truetype');
+}
+
+
+.skinny_solid_font{
+    font-family: 'skinny_jeans_solid';
+}
+
+@font-face {
+    font-family: 'austie';
+    src: url('/static/assets/fonts/austie_bost_starlit_beach/Austie Bost Starlit Beach.ttf')  format('truetype');
+}
+
+
+.austie_font{
+    font-family: 'austie';
+}
+
+@font-face {
+    font-family: 'clementine';
+    src: url('/static/assets/fonts/clementine_sketch/clementine sketch.ttf')  format('truetype');
+}
+
+
+.clementine_font{
+    font-family: 'clementine';
+}
+
+@font-face {
+    font-family: 'grandma';
+    src: url('/static/assets/fonts/grandmas_garden/Grandma.ttf')  format('truetype');
+}
+
+
+.grandma_font{
+    font-family: 'grandma';
+}
+
+@font-face {
+    font-family: 'kghappy';
+    src: url('/static/assets/fonts/kg_happy-textready/KGHAPPY.ttf')  format('truetype');
+}
+
+
+.kghappy_font{
+    font-family: 'kghappy';
+}
+
+@font-face {
+    font-family: 'kghappyshadow';
+    src: url('/static/assets/fonts/kg_happy-textready/KGHAPPYShadows.ttf')  format('truetype');
+}
+
+
+.kghappyshadow_font{
+    font-family: 'kghappyshadow';
+}
+
+@font-face {
+    font-family: 'kghappysolid';
+    src: url('/static/assets/fonts/kg_happy-textready/KGHAPPYSolid.ttf')  format('truetype');
+}
+
+
+.kghappysolid_font{
+    font-family: 'kghappysolid';
+}
+
+@font-face {
+    font-family: 'neverletgo';
+    src: url('/static/assets/fonts/never_let_go-textready/NeverLetGo.ttf')  format('truetype');
+}
+
+
+.neverletgo_font{
+    font-family: 'neverletgo';
+}
+
+
+
+@font-face {
+    font-family: 'sandwichdark';
+    src: url('/static/assets/fonts/sandwich_paper/Sandwich Paper Dark.ttf')  format('truetype');
+}
+
+
+.sandwichdark_font{
+    font-family: 'sandwichdark';
+}
+
+@font-face {
+    font-family: 'sandwichlight';
+    src: url('/static/assets/fonts/sandwich_paper/Sandwich Paper Light.ttf')  format('truetype');
+}
+
+
+.sandwichlight_font{
+    font-family: 'sandwichlight';
+}
+
+@font-face {
+    font-family: 'sandwich';
+    src: url('/static/assets/fonts/sandwich_paper/Sandwich Paper.ttf')  format('truetype');
+}
+
+
+.sandwich_font{
+    font-family: 'sandwich';
+}

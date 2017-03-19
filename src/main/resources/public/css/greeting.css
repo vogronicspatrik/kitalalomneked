@@ -25,6 +25,20 @@ body {
     color: #F6F3B9;
 }
 
+.footer{
+    text-align: center;
+    width:320px;
+    height:30px;
+    /*box-shadow: 0 0 5px 2px  black;*/
+    font-size: 18px;
+    position: absolute;
+    bottom: 5px;
+    right: 405px;
+    color: #F6F3B9;
+
+
+}
+
 .ideas{
     position: absolute;
     top: 5%;

@@ -22,3 +22,20 @@ function startTime()
 
     timerid = setTimeout("startTime()", 1000);
 }
+
+
+
+
+
+//
+// $('document').ready(function() {
+//
+//     $('img').on({
+//         'mouseover' : function() {
+//             $(this).attr('src','/images/sq2.png');
+//         },
+//         mouseout : function() {
+//             $(this).attr('src','/images/sq.png');
+//         }
+//     });
+// });

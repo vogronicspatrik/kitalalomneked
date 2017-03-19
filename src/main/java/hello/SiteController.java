@@ -12,4 +12,14 @@ public class SiteController {
     public String greeting(){
         return "greeting";
     }
+
+    @RequestMapping("/webDesign")
+    public String webDesign(){
+        return "webDesign";
+    }
+
+    @RequestMapping("/contact")
+    public String contact(){
+        return "contact";
+    }
 }

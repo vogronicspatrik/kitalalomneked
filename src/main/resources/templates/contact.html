@@ -41,21 +41,21 @@
 <div class="container kghappy_font">
 
     <div class="container_header">Kapcsolat</div>
+        <div class="skinny_solid_font">
+            Az alábbi mezőkbe kérjük adja meg adatait, valamint röviden fogalmazza meg igényeit és mihamarabb felvesszük önnél
+            a kapcsolatot!
+            <div class="input_fields">
+                <form th:action="'/sendEmail'" method="post">
+                Telefonszám: <input style="width: 200px" placeholder="telefonszám" name="phoneNumber" required="required"/><br> </br>
+                Email: <input style="width: 200px" placeholder="email-cím" name="email" required="required"/> <br> </br>
+                Megjegyzés:<br> </br>
+                    <textarea placeholder="megjegyzés..." name="content" required="required"></textarea>
 
-    Az alábbi mezőkbe kérjük adja meg adatait, valamint röviden fogalmazza meg igényeit és mihamarabb felvesszük önnél
-    a kapcsolatot!
-    <div class="input_fields">
-        <form>
-        Telefonszám: <input style="width: 200px" placeholder="telefonszám" name="phoneNumber"/><br> </br>
-        Email: <input style="width: 200px" placeholder="email-cím" name="email"/> <br> </br>
-        Megjegyzés:<br> </br>
-            <textarea placeholder="megjegyzés..." name="content"></textarea>
+                    <button type="submit"  class="btn btn-success">Küldés</button>
 
-            <button type="submit"  class="btn btn-success">Küldés</button>
-
-        </form>
-    </div>
-
+                </form>
+            </div>
+        </div>
 </div>
 <div class="footer neverletgo_font">Jogi információk © 2017. Minden jog fenntartva.</div>
 

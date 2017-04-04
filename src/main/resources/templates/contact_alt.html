@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <head th:replace="fragments/head :: head"></head>
+    <title>Kapcsolatok</title>
+</head>
+
+<body>
+
+<div th:replace="fragments/fixed_navbar :: navbar"></div>
+
+
+
+<!-- Header Contact -->
+<header id="contact-header" class="flex-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-xs-12">
+                <div class="flex-item">
+                    <div class="header-text text-center">
+                        <div class="header-bg">
+                            <h1>Give us a shout</h1>
+                            <hr class="header-dash-white-center"/>
+                            <p class="title">Send us an email or come by for a chat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- /.End Container -->
+</header>
+<!-- /.End Header Contact -->
+<!-- Section Contact Info -->
+<section id="contact_info">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <!-- Contact Box - Address -->
+                <div class="contact_box animate" data-animate="fadeIn" data-duration="1.0s"
+                     data-delay="0.1s">
+                    <img src="assets/bigga/img/icons/icn-location.svg" width="80" height="80"
+                         class="img-responsive center-block" alt="Location"/>
+                    <h4>Személyesen</h4>
+                    <hr class="contact-dash-dark-center"/>
+                    <p>OKTOGON<br/>BUDAPEST 1119, HU</p>
+                </div>
+                <!-- /.End Contact Box - Address -->
+            </div>
+            <div class="col-sm-4">
+                <!-- Contact Box - Phones -->
+                <div class="contact_box animate" data-animate="fadeIn" data-duration="1.0s"
+                     data-delay="0.2s">
+                    <img src="assets/bigga/img/icons/icn-mobile-contact.svg" width="80" height="80"
+                         class="img-responsive center-block" alt="Location"/>
+                    <h4>Hívjon minket</h4>
+                    <hr class="contact-dash-dark-center"/>
+                    <p>++ 44 785 522 322<br/>
+                        ++ 44 785 522 322</p>
+                </div>
+                <!-- /.End Contact Box - Phones -->
+            </div>
+            <div class="col-sm-4">
+                <!-- Contact Box - Emails -->
+                <div class="contact_box animate" data-animate="fadeIn" data-duration="1.0s"
+                     data-delay="0.3s">
+                    <img src="assets/bigga/img/icons/icn-online-contact.svg" width="80" height="80"
+                         class="img-responsive center-block" alt="Location"/>
+                    <h4>Küldjön emailt</h4>
+                    <hr class="contact-dash-dark-center"/>
+                    <p><a href="mailto:hello@biggacreative.com">hello@biggacreative.com</a><br/>
+                        <a href="quote@biggacreative.com">quote@biggacreative.com</a></p>
+                </div>
+                <!-- /.End Contact Box - Emails -->
+            </div>
+        </div>
+        <!-- Contact CTA -->
+        <div class="contact_cta">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>Vagy írjon egy üzenetet</h3>
+                    <p><i class="fa fa-angle-down" aria-hidden="true"></i></p>
+                </div>
+            </div>
+        </div>
+        <!-- Contact CTA -->
+    </div><!-- /.End Container -->
+</section>
+<!-- /.End Section Contact Info -->
+<!-- Section CTA 3 -->
+<section id="cta_alt_3">
+    <div class="container">
+        <div class="cta-wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-sm-7 col-sm-offset-5 no-padding">
+                            <div class="cta-wrapper-inner">
+                                <!-- Project Form -->
+                                <form>
+                                    <div class="form-inner text-center">
+                                        <h3>Általános Információk</h3>
+                                        <hr class="section-dash-dark"/>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label class="sr-only" for="firstName">Kereszt Név</label>
+                                                    <input type="text" class="form-control" id="firstName"
+                                                           placeholder="Kereszt Név"/>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label class="sr-only" for="LastName">Vezeték Név</label>
+                                                    <input type="text" class="form-control" id="LastName"
+                                                           placeholder="Vezeték Név"/>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label class="sr-only" for="emailInput">Email cím</label>
+                                                    <input type="email" class="form-control" id="emailInput"
+                                                           placeholder="Email cím"/>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label class="sr-only" for="phoneNumber">Telefonszám</label>
+                                                    <input type="number" class="form-control" id="phoneNumber"
+                                                           placeholder="Telefonszám"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="form-group">
+                                        <textarea class="form-control" rows="3"
+                                                  data-validation-required-message="Részletezze nekünk ötleteit"
+                                                  id="project_details" name="project_details"
+                                                  placeholder="Részletezze nekünk ötleteit"
+                                                  required="required" aria-invalid="false"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-inner">
+                                                <h4>Szolgáltatások</h4>
+                                                <div class="form-group mrgn-20-top">
+                                                    <div class="row">
+                                                        <div class="mrgn-5-btm wrap-details">
+                                                            <input type="checkbox" name="checkboxes" id="checkboxes-0"
+                                                                   value="1"/>
+                                                            <label class="checkbox" for="checkboxes-0">Grafikus
+                                                                Design</label>
+                                                        </div>
+                                                        <div class="mrgn-5-btm wrap-details">
+                                                            <input type="checkbox" name="checkboxes" id="checkboxes-1"
+                                                                   value="1"/>
+                                                            <label class="checkbox" for="checkboxes-1">Weboldal
+                                                                készítés</label>
+                                                        </div>
+                                                        <div class="mrgn-5-btm wrap-details">
+                                                            <input type="checkbox" name="checkboxes" id="checkboxes-2"
+                                                                   value="1"/>
+                                                            <label class="checkbox" for="checkboxes-2">
+                                                                Reklámszöveg, szlogen</label>
+                                                        </div>
+                                                        <div class="wrap-details">
+                                                            <input type="checkbox" name="checkboxes" id="checkboxes-3"
+                                                                   value="1"/>
+                                                            <label class="checkbox" for="checkboxes-3">Webshop</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-inner">
+                                                <h4>Ráfordítható összeg</h4>
+                                                <div class="form-group mrgn-20-top">
+                                                    <div class="row">
+                                                        <div class="mrgn-5-btm wrap-details">
+                                                            <input type="radio" name="radio" id="radio-0" value="1"/>
+                                                            <label class="radio" for="radio-0"> 30.000 - 50.000</label>
+                                                        </div>
+                                                        <div class="mrgn-5-btm wrap-details">
+                                                            <input type="radio" name="radio" id="radio-1" value="1"/>
+                                                            <label class="radio" for="radio-1"> 50.000 - 150.000</label>
+                                                        </div>
+                                                        <div class="mrgn-5-btm wrap-details">
+                                                            <input type="radio" name="radio" id="radio-2" value="1"/>
+                                                            <label class="radio" for="radio-2"> 150.000 - 300.000</label>
+                                                        </div>
+                                                        <div class="wrap-details">
+                                                            <input type="radio" name="radio" id="radio-3" value="1"/>
+                                                            <label class="radio" for="radio-3"> Több mint 300.000</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-inner bg-lightest">
+                                        <div class="form-group mrgn-10-top text-center">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <button type="submit" class="btn btn-main btn-block">Küldés <i
+                                                            class="fa fa-angle-right"
+                                                            aria-hidden="true"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                                <!-- /.Project Form -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div><!-- /.End Container -->
+</section>
+<!-- /.Section CTA 3 -->
+<!-- Location Section -->
+<section id="location">
+    <div id="google-container"></div>
+    <div id="cd-zoom-in"></div>
+    <div id="cd-zoom-out"></div>
+</section>
+<!-- /.End Location Section -->
+<div th:replace="fragments/footer :: footer"></div>
+
+
+<div th:replace="fragments/end_scripts :: end_scripts"></div>
+
+
+</body>
+</html>

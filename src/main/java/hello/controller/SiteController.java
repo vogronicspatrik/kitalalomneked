@@ -13,13 +13,23 @@ public class SiteController {
         return "index";
     }
 
-    @RequestMapping("/webDesign")
+    @RequestMapping("/service")
     public String webDesign(){
-        return "webDesign";
+        return "services";
     }
 
     @RequestMapping("/contact")
     public String contact(){
-        return "contact";
+        return "contact_alt";
+    }
+
+    @RequestMapping("/webnevjegy")
+    public String nevjegy(){
+        return "webnevjegy";
+    }
+
+    @RequestMapping("/about_us")
+    public String about(){
+        return "team";
     }
 }

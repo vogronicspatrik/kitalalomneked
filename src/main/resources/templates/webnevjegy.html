@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <head th:replace="fragments/head :: head"></head>
+    <title>Főoldal</title>
+
+</head>
+<body>
+<div th:replace="fragments/fixed_navbar :: navbar"></div>
+
+<!-- Header Services -->
+<header id="services-header" class="flex-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-xs-12">
+                <div class="flex-item">
+                    <div class="header-text text-center">
+                        <div class="header-bg">
+                            <h1>Web névjegy</h1>
+                            <hr class="header-dash-white-center"/>
+                            <p class="title">We tell stories together with clients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- /.End Container -->
+</header>
+<!-- /.End Header Services -->
+<!-- Section Traits -->
+<section id="traits">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <!-- Trait 01 -->
+                <div class="animate" data-animate="fadeIn" data-duration="1.0s"
+                     data-delay="0.2s">
+                    <div class="trait_box">
+                        <div class="trait_inner devotion">
+                            <h3>Információ</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.End Trait 01 -->
+            </div>
+            <div class="col-sm-4">
+                <!-- Trait 02 -->
+                <div class="animate" data-animate="fadeIn" data-duration="1.0s"
+                     data-delay="0.4s">
+                    <div class="trait_box">
+                        <div class="trait_inner skills">
+                            <h3>Kényelem</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.End Trait 02 -->
+            </div>
+            <div class="col-sm-4">
+                <!-- Trait 03 -->
+                <div class="animate" data-animate="fadeIn" data-duration="1.0s"
+                     data-delay="0.6s">
+                    <div class="trait_box">
+                        <div class="trait_inner trends">
+                            <h3>Részletezés</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.End Trait 03 -->
+            </div>
+        </div>
+    </div><!-- /.End Container -->
+</section>
+<!-- /.End Section Traits -->
+
+<div th:replace="fragments/our_process_default :: our_process_default"></div>
+
+
+<div th:replace="fragments/our_services :: our_services"></div>
+
+<div th:replace="fragments/work_with_us :: work_with_us"></div>
+
+
+<div th:replace="fragments/footer :: footer"></div>
+
+
+<div th:replace="fragments/end_scripts :: end_scripts"></div>
+
+</body>
+</html>

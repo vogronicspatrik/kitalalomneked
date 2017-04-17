@@ -32,4 +32,10 @@ public class SiteController {
     public String about(){
         return "team";
     }
+
+    @RequestMapping("/weboldal_ora")
+    public String ora(){
+        return "weboldal_ora";
+    }
+
 }

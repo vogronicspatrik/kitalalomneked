@@ -38,4 +38,14 @@ public class SiteController {
         return "weboldal_ora";
     }
 
+    @RequestMapping("/design")
+        public String design() {
+        return "design";
+    }
+
+    @RequestMapping("/webshop")
+    public String webshop(){
+        return "webshop";
+    }
+
 }
